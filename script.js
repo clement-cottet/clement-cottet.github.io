@@ -59,7 +59,7 @@ function drawDataOnMap(dataTable) {
             fillOpacity: 0.5,
             radius: 1000
         }).addTo(map);
-        var popUpContent = '<br>' + etablissement.sigle + ' ' + etablissement['denomination complementaire'] + '<br>' + etablissement.nb_poste;
+        var popUpContent = '<br>' + etablissement.sigle + ' ' + etablissement['denomination complementaire'] + '<br>' + etablissement.nb_poste + '<br>' + etablissement.rep;
         popUpMemory[etablissement.localite] += popUpContent;
         circle.bindPopup(popUpMemory[etablissement.localite]);
         circle.on('click', function(e) {
