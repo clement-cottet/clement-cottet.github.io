@@ -1,0 +1,24 @@
+#gpx-content {
+    max-width: 100%;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+#curve_chart {
+    height: 500px;
+}
+
+#table_div {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.analysis {
+    border: 1px solid;
+    border-radius: 2%;
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
